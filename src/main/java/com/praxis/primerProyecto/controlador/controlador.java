@@ -16,7 +16,7 @@ public class controlador {
 	
 	@RequestMapping(value = ("/"), method = RequestMethod.GET)
 	public String inicio(Model model) {
-		PersonaDTO persona = new PersonaDTO("Juan", "Pérez", 20);
+		PersonaDTO persona = new PersonaDTO("Bruss", "Acevedo", 29);
 		model.addAttribute("persona", persona);
 		
 		return "inicio";

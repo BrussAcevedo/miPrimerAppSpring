@@ -11,7 +11,7 @@ public class DesafioMiPrimerSpringApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DesafioMiPrimerSpringApplication.class, args);
 		
-		PersonaDTO persona = new PersonaDTO("Juan", "Pérez", 20);
+		PersonaDTO persona = new PersonaDTO("Bruss", "Acevedo", 29);
 			
 		System.out.println("Nombre: " +  persona.getNombre());
 		System.out.println("Apellido: " + persona.getApellido());
